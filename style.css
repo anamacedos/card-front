@@ -1,0 +1,38 @@
+/*reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu{
+    display: flex; /*deixar um ao lado do outro*/
+    justify-content: end; /*no final*/
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+.menu img{
+    height: 16px;
+    gap: 16px;
+}
+
+.menu li{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 4px 8px;
+    transition: 5s;
+}
+.menu li:hover{
+    background-color: red;
+
+}
