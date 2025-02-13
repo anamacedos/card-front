@@ -1,5 +1,6 @@
 :root{
     --cor-hover: white;
+    --cor-produto: rgb(206, 46, 46);
 }
 
 /*reset*/
@@ -43,7 +44,125 @@ a{
 }
 
 /*Configuração dos cards*/
- main{
+main{
+    padding-left: 125px;
+    padding-right: 125px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    background-color: aliceblue;
+
+}
+ h1{
     margin-top: 80px;
     text-align: center;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
  }
+ .containercards{
+    display: flex;
+    gap: 100px;
+
+ }
+
+ .quadrado-colorido{
+    border-radius: 13px;
+    height: 580px;
+    width: 335px;
+    background-color: var(--cor-produto);
+    padding-top: 40px;
+
+}
+
+
+ 
+
+
+ .card{
+    height: 540px;
+    width: 335px;
+    background-color: white;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    border-radius: 40px 40px 13px 13px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: relative;
+
+
+ }
+
+ .titulo{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 25px;
+    color: var(--cor-produto);
+    align-self: center;
+    
+ }
+
+ .imagem{
+    max-width: 220px;
+    border-radius: 18px;
+    align-self: center;
+    
+ }
+
+
+ .descricao{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 13px;
+    align-self: center;
+    text-align: justify;
+    text-justify: inter-word;
+ }
+
+ .valor{
+    font-weight: bold;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 27px;
+
+ }
+
+ .duracao{
+    
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 15px;
+    border: 1px solid #000;
+    padding: 2px;
+    text-align: left;
+    
+
+    
+ }
+
+
+
+ .container-duracao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.botao {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    background-color: rgb(248, 181, 37);
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0.5px;
+    border-radius: 0 0 13px 13px;
+    height: 13%;
+
+    
+}
