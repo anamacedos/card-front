@@ -45,7 +45,7 @@ function criarCard (produto){
     const novaDescricao = document.createElement('p')
     const novoValor = document.createElement('span')
     //const novoContainerDuracao = document.createElement('div') 
-    const novaDuracao = document.createElement('span')
+    const novaDuracao = document.createElement('button')
     const novoBotao = document.createElement('button')
     const ContainerGeral = document.getElementById('containerCards') //pegando a div criada no html, para depois colocarmos tudo dentro dela
 
